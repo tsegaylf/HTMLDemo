@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title >My first HTML Project</title>
+        <script src="index.html"></script>
+        <style>
+            ol{
+                color:blueviolet;
+            }
+            #green{
+                color:indianred;
+            }
+            .thediv{
+                color: darkgoldenrod;
+            }
+            .orange{
+                color: brown;
+            }
+            .twicethesize{
+                font-size: 2.5em;
+            }
+        </style>
+
+        </head>
+        <body>
+            <h1>Cincinnati Ohio</h1>
+            <h3>Middle of Nowhere!</h3>
+    
+            <div>
+                <h3>Drop-down List</h3>
+                <select>
+                    <option value="100">Option 1</option>
+                    <option value="200">Option 2</option>
+                    <option value="300">Option 3</option>
+                </select>
+            </div>
+    
+            <div>
+                <h3>Using the <code>input</code> tag</h3>
+                <input size="40" type="text" value="this is the default text">
+                <br>
+                <input type="number" value="7">
+                <br>
+                <span>Password:</span><input type="password" value="mypassword">
+            </div>
+    
+            <div>
+                <button onclick="displayInputValue('pwd')">Click me</button>
+            </div>
+    
+            <div class="thediv">
+            <p><b>List of Technologies</b></p>        
+            <ol>
+            <li>Git/GitHub</li>
+            <li>SQL</li>
+            <li id="green">C#</li>
+            <li>HTML/CSS/JS</li>
+            <li>Angular</li>
+            </ol>
+    
+            <ul>
+            <li>Git/GitHub</li>
+            <li>SQL</li>
+            <li>C#</li>
+            <li>HTML/CSS/JS</li>
+            <li>Angular</li>
+            </ul>
+            </div>
+    
+            <div style="display:none;">
+            <hr><table>
+                <thead><tr><th>Name</th><th>Color</th><th>Number</th></tr></thead>
+                <tbody><tr><td>Lidya</td><td>Green</td><td>8</td></tr>
+                    <tr> <td>Tricia</td><td>Blue</td><td>17</td></tr>
+                    <tr><td>Alex</td><td>Blue</td><td>101</td></tr>
+                    <tr><td>Jeremy</td><td>Purple</td><td>13</td></tr>
+                    <tr><td>Justin</td><td>Red</td><td>18</td></tr>
+                    <tr><td>Nick</td><td>White</td><td>4</td></tr>
+                    <tr><td>Phill</td><td>Yellow</td><td>29</td></tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+            </div>
+    
+            <hr>
+            <h3>Boot-camp Tools</h3>
+            <table>
+                    <thead>
+                        <tr>
+                            <th>Technology</th> 
+                            <th>Description</th>
+                            <th>Comment</th> 
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Git/GitHub</td>
+                            <td>Source Code Management System</td>
+                            <td>Excelent tool and is being widely adopted in the programing world</td>
+                        </tr>
+                        <tr>
+                            <td>SQL</td>
+                            <td>Relational Database Management System</td>
+                            <td>Provides excellent data management</td>
+                         </tr>
+                        <tr>
+                            <td>C#</td>
+                            <td>Programming Language</td>
+                            <td>Easy to learn and continued addition of featured</td>
+                         </tr>
+                        <tr>
+                            <td>HTML/CSS/JS</td>
+                            <td>Provides the basic Structure of Sites</td>
+                            <td>Must know to program on the web</td>
+                         </tr>
+                        <tr>
+                            <td>Angular</td>
+                            <td>JavaScript-based Open-Source Front-end Web Framework</td>
+                            <td>This program is IT for web programming</td>
+                         </tr>
+    
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+                <hr>
+    
+            <p>
+                <span>When I finish the bootcamp, I want to shop at </span> 
+                <a href="https://www.amazon.com" target="_blank"> Amazon.</a> 
+            </p>
+            <p>This is paragraph 1.</p>
+            <p> This is paragraph 2.</p>
+            <span>This is span 1.</span>
+            <span>This is span 2.</span>
+            <p> 
+                <span>Lidya Tsegay</span> <br>
+                <span>Riddle Crest Ln</span> <br>
+                <span>Cincinnati, Ohio 45220</span>
+            </p>
+            <address> 
+                <span>Lidya Tsegay</span> <br>
+                <span>Riddle Crest Ln</span> <br>
+                <span>Cincinnati, Ohio 45220</span>
+            </address>
+    
+        </body>
+    </html> 
